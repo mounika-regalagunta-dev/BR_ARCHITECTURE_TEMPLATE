@@ -1,0 +1,95 @@
+.Navi{
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    left:5%;
+}
+.Na{
+    float:right;
+    letter-spacing: 5px;
+    justify-content: space-between;
+    padding:20px;
+    font-size: x-large;
+
+}
+.Nav{
+    background-color: white;
+    display:inline-block;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 8px;   
+}
+.Nav,.Navi,.Na{
+    display: inline-block;
+  
+}
+.Bar{
+        position:sticky;
+         z-index:1000;
+         top:0%;
+         background-color: white;
+         width: 100%;
+        }
+
+.container{
+    position: relative;
+}
+h1,pre{
+    display:inline-block;
+    line-height: 2.0;
+    letter-spacing: 9px;
+    text-align: center !important;
+}
+.image-box{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    line-height:45px;
+}
+.text1{
+    position: absolute;
+    top: 1px;
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-family:Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.img1,.img2{
+    display: inline-block;
+    width: 100%;
+}
+
+.main{
+    filter: grayscale(80%);
+    display: flex;
+    margin-left: 25px;
+    gap:20px;
+    text-wrap: wrap;
+}
+p{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+.msg{
+    background-color: black;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+form{
+    line-height: 2.5;
+    padding:10px;
+}
+.pow{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: x-large;
+}
+
+
+    
+    
